@@ -49,6 +49,7 @@ ENV GLYPH_SRC_DIR=/blue-app-btc/glyphs/
 
 ARG CHAIN
 ENV CHAIN=${CHAIN}
+ENV COIN=${CHAIN}
 ENV TARGET="/binaries/$CHAIN"
 RUN mkdir -p ${TARGET}
 
